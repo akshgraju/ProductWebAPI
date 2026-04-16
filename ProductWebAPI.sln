@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductWebAPI", "ProductWebAPI.csproj", "{AFBE2C7E-9DB5-4454-B0A5-795EC9F1D876}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkeStoresGatewayAPI", "..\BtkeStoresGatewayAPI\BtkeStoresGatewayAPI.csproj", "{2B85F7FE-311B-4F21-A618-B139BF05326F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersAPI", "..\OrdersAPI\OrdersAPI.csproj", "{85F0E38A-B636-43D3-8AB3-6D94C0A8C294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI", "..\AuthAPI\AuthAPI.csproj", "{D4A99BED-8228-4F17-8E52-AFF80C429344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFBE2C7E-9DB5-4454-B0A5-795EC9F1D876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBE2C7E-9DB5-4454-B0A5-795EC9F1D876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBE2C7E-9DB5-4454-B0A5-795EC9F1D876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBE2C7E-9DB5-4454-B0A5-795EC9F1D876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B85F7FE-311B-4F21-A618-B139BF05326F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B85F7FE-311B-4F21-A618-B139BF05326F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B85F7FE-311B-4F21-A618-B139BF05326F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B85F7FE-311B-4F21-A618-B139BF05326F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F0E38A-B636-43D3-8AB3-6D94C0A8C294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F0E38A-B636-43D3-8AB3-6D94C0A8C294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F0E38A-B636-43D3-8AB3-6D94C0A8C294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F0E38A-B636-43D3-8AB3-6D94C0A8C294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A99BED-8228-4F17-8E52-AFF80C429344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A99BED-8228-4F17-8E52-AFF80C429344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A99BED-8228-4F17-8E52-AFF80C429344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A99BED-8228-4F17-8E52-AFF80C429344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0126B4C-FEDB-4B20-AEE6-D02EB9161102}
+	EndGlobalSection
+EndGlobal

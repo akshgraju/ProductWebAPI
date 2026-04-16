@@ -32,6 +32,9 @@ namespace ProductWebAPI.Services
         {
             return await productContext.Brands
                 .FirstOrDefaultAsync(b => b.BrandName.ToLower() == brandName.ToLower());
+        }public string GetWelcomeMessage()
+        {
+         return "New method added from feature branch";
         }
     }
 }
